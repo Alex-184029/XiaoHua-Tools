@@ -1,0 +1,99 @@
+/* 详情页外链样式表 */
+
+.container{
+    width: 70%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F8FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-left: thin solid    #AAAAAA;
+    border-right: thin solid   #AAAAAA;
+}
+
+.xh1{
+    margin-top: 12px;
+}
+
+.xh11{
+    width: 490px;
+    height: 105px;
+}
+
+.xh2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 5px;
+    margin-bottom: 30px; 
+}
+
+.xh21{
+    height: 170px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: #FFDAB9;
+}
+
+.xh210{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.xh211{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+    margin-bottom: 2px;
+    margin-top: 8px;
+    font-family: "SimHei";
+}
+
+.xh22{
+    width: 115px;
+    height: 115px;
+}
+
+.xh3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;    /*可以尝试换为space-around*/
+    margin-top: 20px;
+    padding: 5px;
+}
+ 
+.xh31{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: #FF7F50;
+    padding: 10px;
+    border: 3px groove #AAAAAA;
+    border-radius: 15px;
+}
+
+.xh311{
+    width: 180px;
+    height: 180px;
+}
+
+.xh312{
+    margin-top: 5px;
+}

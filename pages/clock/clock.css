@@ -1,0 +1,72 @@
+/*时钟页面样式表*/
+
+.container{
+    width: 70%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F8FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-left: thin solid    #AAAAAA;
+    border-right: thin solid   #AAAAAA;
+}
+
+.clock1{
+    margin-top: 12px;
+}
+
+.clock11{
+    width: 350px;
+    height: 105px;
+}
+
+.clock2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.clock21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.clock211{
+    height: 70px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #FFDAB9;
+    margin-bottom: 20px;
+}
+
+.clock2111{
+    font-size: 20px;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+}
+
+.clock212{
+    margin-top: 30px;
+    width: 380px;
+    height: 240px;
+}
+
+.clock22{
+    width: 280px;
+    height: 280px;
+}

@@ -1,0 +1,86 @@
+/*主页面外链样式表*/
+
+.container{
+    width: 70%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F8FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-left: thin solid #AAAAAA;
+    border-right: thin solid #AAAAAA;
+}
+
+.home1{
+    margin-top: 12px;
+}
+
+.home2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+.home11{
+    width: 490px;
+    height: 105px;
+}
+
+.home21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.home210{
+    margin-bottom: 35px;
+    font-size: 24px;
+    font-family: SimHei;
+}
+
+.home211{
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 35px;
+    background-color: #FFDAB9;
+}
+
+.home2110{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+.home2111{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3px;
+    margin-bottom: 2px;
+}
+
+.home2112{
+    margin-left: 75px;
+}
+
+.home22{
+    margin-left: 75px;
+}
+
+.home220{
+    width: 470px;
+    height: 400px;
+}

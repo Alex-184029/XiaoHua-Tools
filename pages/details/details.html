@@ -1,0 +1,62 @@
+<!-- 详情页 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>小华工具箱-详情</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./details.css">
+    <script type="text/javascript">
+        function goClock(){
+            window.open('../clock/clock.html','_blank');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <div class="xh1">
+            <img src="../../images/title2.png" class="xh11">
+        </div>
+        <hr width="82%" align="center"> 
+        <!-- 登陆表单与音乐盒 -->
+        <div class="xh2">
+            <div class="xh21">
+                <img src="../../images/grxx.png" class="xh210">
+                <form name="data" action="" method="post">
+                    <div class="xh211">
+                        <text>帐号：</text>
+                        <input type="text" name="account" value="1234567890" disabled="disabled">
+                    </div>
+                    <div class="xh211">
+                        <text class="xh2110">密码：</text>
+                        <input type="password" name="password" value="*******" disabled="disabled">
+                    </div>
+                </form>
+            </div>
+            <img src="../../images/clock1.png" class="xh22" onclick="goClock()">
+            <div class="xh21">
+                <img src="../../images/tkzc.png" class="xh210">
+                <audio src="../../audio/天空之城.mp3" controls="control" loop="true"></audio>
+            </div>
+        </div>
+        <!-- 功能项 -->
+        <div class="xh3">
+            <!-- 计算器 -->
+            <div class="xh31">
+                <img src="../../images/calc2.png" class="xh311">
+                <a href="../calc/calc.html" title="打开计算器" target="_blank" class="xh312">计算器</a>
+            </div>
+            <!-- 记事本 -->
+            <div class="xh31">
+                <img src="../../images/note1.png" class="xh311">
+                <a href="../note/note.html" title="打开记事本" target="_blank" class="xh312">记事本</a>
+            </div>
+            <!-- 发邮件 -->
+            <div class="xh31">
+                <img src="../../images/mail2.png" class="xh311">
+                <a href="mailto:xiaohua_184@163.com" title="给xiaohua发邮件" class="xh312">发邮件</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

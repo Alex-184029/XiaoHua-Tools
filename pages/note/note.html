@@ -1,0 +1,67 @@
+<!-- 记事本页 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>小华工具箱-记事本</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./note.css">
+    <script type="text/javascript">
+        function toDelete(){
+            alert("用户点击了删除，但暂时还没效果。");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- 标题 -->
+        <div class="note1">
+            <img src="../../images/jsb.png" class="note11">
+        </div>
+        <hr width="76%" align="center"> 
+        <!-- 记事本 -->
+        <div class="note2">
+            <!-- 笔记列表 -->
+            <div class="note21">
+                <!-- 笔记为空时，需要显示下方格式的图片 -->
+                <!-- <img src="../../images/blank.png" class="note210"> -->
+                <div class="note211">
+                    <div class="note2110">网信作业</div>
+                    <div class="note2112">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</div>
+                    <div class="note2113">创建时间：Wed Jan 11 18:21:51 CST 2017</div>
+                    <button onclick="toDelete()" class="note2114">删除</button>
+                </div>
+                <div class="note211">
+                    <div class="note2110">志愿活动</div>
+                    <div class="note2112">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦llllllllll</div>
+                    <div class="note2113">创建时间：Wed Jan 11 18:21:51 CST 2017</div>
+                    <button onclick="toDelete()" class="note2114">删除</button>
+                </div>
+                <div class="note211">
+                    <div class="note2110">通原作业</div>
+                    <div class="note2112">啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦啦</div>
+                    <div class="note2113">创建时间：Wed Jan 11 18:21:51 CST 2017</div>
+                    <button onclick="toDelete()" class="note2114">删除</button>
+                </div>
+            </div>
+            <!-- 笔记创建和美化插图 -->
+            <div class="note22">
+                <div class="note221">
+                    <div class="note2210">创建笔记</div>
+                    <form name="data" action="" method="post">
+                        <div class="note2211">
+                            <text>笔记标题：</text>
+                            <textarea name="title" rows="1" cols="30"></textarea>
+                        </div>
+                        <div class="note2211">
+                            <text>笔记内容：</text>
+                            <textarea name="content" rows="5" cols="30"></textarea>
+                        </div>
+                        <input type="submit" value="创建笔记" class="note2212">
+                    </form>
+                </div>
+                <img src="../../images/bj1.png" class="note222">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

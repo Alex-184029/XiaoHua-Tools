@@ -1,0 +1,125 @@
+/*记事本页外链样式表*/
+
+.container{
+    width: 70%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F8FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-left: thin solid #AAAAAA;
+    border-right: thin solid #AAAAAA;
+}
+
+.note1{
+    margin-top: 12px;
+}
+
+.note11{
+    width: 350px;
+    height: 105px;
+}
+
+.note2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.note21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 15px;
+}
+
+.note210{
+    width: 350px;
+    height: 380px;
+}
+
+.note211{
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 35px;
+    background-color: #FFDAB9;
+}
+
+.note2110{
+    font-family: SimHei;
+    font-weight: 7px;
+    font-size: 25px;
+    border-bottom: 2px solid #666666;
+}
+
+.note2112{
+    font-family: SimHei;
+    font-size: 17px;
+    font-weight: 7px;
+}
+
+.note2113{
+    font-family: SimHei;
+    font-size: 14px;
+    font-weight: 6px;
+    font-style: oblique;
+}
+
+.note22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.note221{
+    height: 230px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 50px;
+    background-color:  #CCFF99;
+    border-radius: 15px;
+}
+
+.note2210{
+    font-family: SimHei;
+    font-weight: 7px;
+    font-size: 25px;
+    border-bottom: 2px solid #666666;
+}
+
+.note2211{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: SimHei;
+    font-weight: 6px;
+    font-size: 18px;
+}
+
+.note2212{
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.note222{
+    width: 350px;
+    height: 365px;
+}

@@ -1,0 +1,99 @@
+/*计算器页外链样式表*/
+
+.container{
+    width: 70%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F8FF;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-left: thin solid    #AAAAAA;
+    border-right: thin solid   #AAAAAA;
+}
+
+.cal1{
+    margin-top: 12px;
+}
+
+.cal11{
+    width: 350px;
+    height: 105px;
+}
+
+.cal2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.cal21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 0.3px double #666666;
+    border-radius: 3px;
+    margin-right: 180px;
+}
+
+.cal211{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cal2111{
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: #FFF5EE;
+    border: 3px ridge #AAAAAA;
+    color: #00DD00;
+    margin: 15px;
+    height: 45px;
+    width: 45px;
+}
+
+.cal2112{
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: #FFF5EE;
+    border: 3px ridge #AAAAAA;
+    color: #888888;
+    margin: 15px;
+    height: 45px;
+    width: 45px;
+}
+
+.cal22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 17px;
+}
+
+.cal221{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.cal2210{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cal2211{
+    margin-top: 15px;
+}
